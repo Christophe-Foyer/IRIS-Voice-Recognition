@@ -12,34 +12,25 @@ run start.bat
 
 # Dependencies
 
-This package has the following dependencies:
-
+This package has the following dependencies:  
 (FORMAT: %name%: %command to install%)
 
-ChatterBot: pip install chatterBot
-
-WolframAplha: pip install wolframalpha
-
-SpeechRecognition: pip install speechrecognition
-
-Google Text To Speech: pip install gtts
-
-Mutagen: pip install mutagen
-
+ChatterBot: pip install chatterBot  
+WolframAplha: pip install wolframalpha  
+SpeechRecognition: pip install speechrecognition  
+Google Text To Speech: pip install gtts  
+Mutagen: pip install mutagen  
 Python-Daemon: pip install python-daemon
 
 Windows Specific Dependencies:
 
-Pyglet: pip install pyglet
-
+Pyglet: pip install pyglet  
 avlib: avlib.dll (should be included)
 
 Optional packages (performance improvements):
 
-Monotonic: pip install monotonic
-
-Python-Levenshtein: easy_install python-Levenshtein
-
+Monotonic: pip install monotonic  
+Python-Levenshtein: easy_install python-Levenshtein  
 (if easy install doesn't work, apt-get python-Levenshtein should work)
 
 # Regarding issues during installation:
