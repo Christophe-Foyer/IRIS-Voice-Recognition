@@ -1,6 +1,9 @@
 # IRIS-Voice-Recognition
 
 Voice recognition software written in python with cross-platform compatibility, but meant to be run on raspberry pi.
+Lots of fun commands and easy customization (edit the action function to add more commands)
+Machine learning using chatterbot for conversations.
+OSMC integration
 
 # Usage (Linux)
 
