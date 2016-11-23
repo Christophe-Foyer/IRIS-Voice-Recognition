@@ -119,7 +119,7 @@ else:
     sys.exit()
 try:
     #so many libraries, not even sure I need all of these...
-    import daemon
+    #import daemon
     import Queue
     import threading
     import multiprocessing
