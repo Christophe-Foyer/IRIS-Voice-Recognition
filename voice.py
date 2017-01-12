@@ -55,6 +55,8 @@ YTPlaylists = ["smooth jazz: https://www.youtube.com/playlist?list=PLbkP0n9rU1FE
 
 smartPlaylists = []
 
+wolframID = "" #put your wolframalphaID
+
 #######CODE#######
 
 version = version.split(".")
@@ -649,7 +651,8 @@ def main():
 
     #Wolfram app_id
     global wolfram
-    app_id = "2VL5LU-YL8XK5TKW9"
+    global wolframID
+    app_id = wolframID
     wolfram = wolframalpha.Client(app_id)
     global lastWolframQuery
     lastWolframQuery=" "
