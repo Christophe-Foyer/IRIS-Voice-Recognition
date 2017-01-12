@@ -288,7 +288,7 @@ def listen():
             if operatingSystem == 'Linux':
                 print 'listening with linux mode'
                 r = sr.Recognizer()
-                with sr.Microphone(device_index = 1, sample_rate = 44100, chunk_size = 4096) as source:
+                with sr.Microphone() as source: #sr.Microphone(device_index = 1, sample_rate = 44100, chunk_size = 4096)
                     #adjusting for ambient noise might help, but not sure
                     r.adjust_for_ambient_noise(source)
                     print "Say something!"
