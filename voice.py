@@ -48,14 +48,13 @@ version = '2.1.1'
 
 ##USER VARIABLES##
 
-YTPlaylists = ["smooth jazz: https://www.youtube.com/playlist?list=PLbkP0n9rU1FEIRCvn7ROW7Jya1n0DqQA9",
-               "classic hanging out music: https://www.youtube.com/playlist?list=PLbkP0n9rU1FEDzU_rQ5u3UfH5KmFKz276",
-               "bossa nova: https://www.youtube.com/playlist?list=PLbkP0n9rU1FEDZBGmz8-NwQIvgZIoZOuP"               
+YTPlaylists = [#format -> "playlist name: playlist URL", <-comma between entries ##WARNING: download audio files
+               "royalty free music: https://www.youtube.com/playlist?list=PLMFmJLFhkDPHa6QlTwhBgEIU8hWIB2Sl2"             
                ]
 
 smartPlaylists = []
 
-wolframID = "" #put your wolframalphaID
+wolframID = "WOLFRAM-ID" #input your wolframalpha API ID
 
 #######CODE#######
 
