@@ -54,7 +54,7 @@ YTPlaylists = [#format -> "playlist name: playlist URL", <-comma between entries
 
 smartPlaylists = []
 
-wolframID = "WOLFRAM-ID" #input your wolframalpha API ID
+wolframID = "WOLFRAM-ID" #input your wolframalpha app ID
 
 #######CODE#######
 
